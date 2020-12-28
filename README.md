@@ -15,7 +15,7 @@ Include the library
 
  ```
  dependencies {
-     implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
+     implementation 'com.github.macrogrh:configurable-fastscroll:1.0.1'
  }
  ```
 Add configurable-fastscroll item decoration to recyclerview
