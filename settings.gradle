@@ -1,0 +1,3 @@
+include ':configurable-fastscroll'
+include ':sample'
+rootProject.name = "ConfigurableFastscroll"
