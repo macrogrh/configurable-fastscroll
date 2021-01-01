@@ -20,13 +20,13 @@ Include the library
  ```
 Add configurable-fastscroll item decoration to recyclerview
  ```
-recyclerView.addItemDecoration((new ConfigurableFastScroll.Builder(recyclerView)
+recyclerView.addItemDecoration(new ConfigurableFastScroll.Builder(recyclerView)
         .setThumbDrawable(R.drawable.sample_thumb)
         .setHeight(R.dimen.fastscroll_thumb_height)
         .setTopBottomMargin(R.dimen.fastscroll_thumb_top_bottom_margin)
         .setRightMargin(R.dimen.fastscroll_thumb_right_margin)
         .setThumbTint(R.color.colorPrimary)
-        .build()));
+        .build());
  ```
 ### Options
 - `setThumbDrawable()` set thumb drawable. StateListDrawable is also allowed. 
@@ -38,7 +38,7 @@ recyclerView.addItemDecoration((new ConfigurableFastScroll.Builder(recyclerView)
 ## Not supported
 - different row height : may cause strange scroll behavior
 - LAYOUT_DIRECTION_RTL
-- vertical scroll
+- horizontal scroll
 - thumb track
 
 ## License
